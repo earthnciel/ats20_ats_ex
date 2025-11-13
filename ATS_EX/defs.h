@@ -2,7 +2,7 @@
 
 //If you set this def to 0 project will be compiled without RDS 
 //and everything related to RDS will be excluded from build
-#define USE_RDS 1
+#define USE_RDS 0
 
 #define EEPROM_APP_ID				235
 #define EEPROM_DATA_START_ADDRESS	1
@@ -18,7 +18,7 @@
 #define RESET_PIN 12
 
 //Battery charge monitoring analog pin (Voltage divider 10-10 KOhm directly from battery)
-#define BATTERY_VOLTAGE_PIN A2
+#define BATTERY_VOLTAGE_PIN A1
 
 // Encoder
 #define ENCODER_PIN_A 2
